@@ -1,4 +1,7 @@
 package com.su.entity;
 
-public class User {
+import lombok.Data;
+
+@Data
+public class User extends Account{
 }
