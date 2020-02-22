@@ -1,0 +1,5 @@
+<mapper namespace="com.su.DAO.TypeDAO" xmlns="http://mybatis.org/schema/mybatis-mapper">
+    <select id="findAll" resultType="Type">
+        select * from t_type
+    </select>
+</mapper>

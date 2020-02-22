@@ -1,12 +1,12 @@
 spring:
-  cloud:
-    config:
-      label: master
-      name: account
-      discovery:
-        enabled: true
-        service-id: configserver
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka/
+                     cloud:
+                       config:
+                         label: master
+                         name: account
+                         discovery:
+                           enabled: true
+                           service-id: configserver
+                     eureka:
+                       client:
+                         service-url:
+                           defaultZone: http://localhost:8761/eureka/
